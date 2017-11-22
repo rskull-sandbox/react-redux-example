@@ -6,7 +6,7 @@ http://rskull.hateblo.jp/entry/2017/11/22/013039
 
 ## Getting Started
 
-### 1. Install
+### 1. Installation
 ```
 $ git clone https://github.com/rskull/react-redux-example
 $ cd react-redux-example
