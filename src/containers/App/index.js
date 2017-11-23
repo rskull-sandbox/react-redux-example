@@ -1,8 +1,8 @@
 // @flow
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux';
-import * as Actions from './index'
+import { connect } from 'react-redux'
+import * as Actions from './actions'
 
 class App extends Component<{}> {
   render() {
