@@ -1,4 +1,4 @@
-import { Actions } from './actionsTypes'
+import * as Actions from '../actionTypes'
 
 export const initialState = [
   {
