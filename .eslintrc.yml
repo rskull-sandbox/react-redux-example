@@ -1,1 +1,22 @@
-extends: airbnb
+parser: babel-eslint
+extends:
+  - airbnb
+  - plugin:react/recommended
+  - prettier
+  - prettier/flowtype
+  - prettier/react
+plugins:
+  - react
+  - prettier
+env:
+  browser: true
+rules:
+  prettier/prettier:
+    - error
+    - semi: false
+      singleQuote: true
+  react/jsx-filename-extension:
+    - 1
+    - extensions:
+      - .js
+      - .jsx
