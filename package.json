@@ -13,7 +13,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "prettier": "prettier --no-semi --single-quote --write src/**/*.js",
+    "flow": "flow"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
